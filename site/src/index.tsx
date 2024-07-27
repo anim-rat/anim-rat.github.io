@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Introduction from './contents/Introduction';
 import Banner from './scaffold/Banner';
+import Software from './contents/Software';
+import Translation from './contents/Translation';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,6 +13,8 @@ root.render(
   <React.StrictMode>
     <Banner />
     <Introduction />
+    <Software />
+    <Translation />
   </React.StrictMode>
 );
 
