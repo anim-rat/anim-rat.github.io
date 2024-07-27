@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './pages/Home';
+import Introduction from './contents/Introduction';
+import Banner from './scaffold/Banner';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Home />
+    <Banner />
+    <Introduction />
   </React.StrictMode>
 );
 
