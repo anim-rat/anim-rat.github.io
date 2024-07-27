@@ -7,6 +7,10 @@ on:
     branches:
       - production
 
+defaults:
+  run:
+    working-directory: site
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
@@ -20,9 +24,6 @@ jobs:
           cache-dependency-path: site/package-lock.json
           node-version: 16.13.x
           cache: npm
-
-      - name: Open site folder
-        run: cd site
 
       - name: Install packages
         run: npm ci
