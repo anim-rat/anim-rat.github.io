@@ -1,0 +1,24 @@
+# Deploy script
+
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      
+      - name: Open site folder
+        run: cd site
+
+      - name: Install NPM packages
+        run: npm ci
+      
+      - name: Run NPM deploy script
+        run: npm run deploy
