@@ -16,6 +16,7 @@ jobs:
 
       - name: Setup node
         uses: actions/setup-node@v4
+        working-directory: site
         with:
           node-version: 16.13.x
           cache: npm
