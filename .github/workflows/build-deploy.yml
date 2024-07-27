@@ -17,6 +17,7 @@ jobs:
 
     permissions:
       contents: write
+      deployments: write
       pages: write
       id-token: write
 
