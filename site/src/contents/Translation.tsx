@@ -1,20 +1,13 @@
-import "./Translation.css";
+import RichLink from "../widgets/RichLink";
 
 function Entry(props: { name: string, link: string, note: string, }) {
-	const {
-		name,
-		link,
-		note,
-	} = props;
-
 	return (
-		<article className="translation-entry">
-			<a href={link} target="_blank">
-				<h3>{name}</h3>
-			</a>
-			<p>{note}</p>
-		</article>
-	)
+		<RichLink
+			name={props.name}
+			link={props.link}
+			note={props.note}
+		/>
+	);
 }
 
 export default function Translation() {

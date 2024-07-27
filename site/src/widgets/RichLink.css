@@ -1,7 +1,7 @@
-article {
+.rich-link {
 	margin-bottom: .8em;
 }
 
-article a {
+.rich-link a {
 	text-decoration: none;
 }
