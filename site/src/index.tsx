@@ -5,6 +5,10 @@ import Introduction from './contents/Introduction';
 import Banner from './scaffold/Banner';
 import Software from './contents/Software';
 import Translation from './contents/Translation';
+import Material from './contents/Material';
+import Title from './scaffold/Title';
+import Books from './contents/Books';
+import Websites from './contents/Websites';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,9 +16,13 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Banner />
+    <Title />
     <Introduction />
     <Software />
     <Translation />
+    <Material />
+    <Books />
+    <Websites />
   </React.StrictMode>
 );
 
