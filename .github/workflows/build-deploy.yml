@@ -16,8 +16,8 @@ jobs:
 
       - name: Setup node
         uses: actions/setup-node@v4
-        working-directory: site
         with:
+          cache-dependency-path: site/package-lock.json
           node-version: 16.13.x
           cache: npm
 
