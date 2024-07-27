@@ -28,7 +28,7 @@ export default function Websites() {
 			/>
 			<Entry
 				name="Japanese Color Certification"
-				link="https://japancolor.jp/related_files/JapanColor_Digital_Leaflet_English.pdf"
+				link="https://www.aft.or.jp/pages/feature"
 				note="Describes process for becoming certified in color design"
 			/>
 			<Entry

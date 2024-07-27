@@ -9,6 +9,12 @@ import Material from './contents/Material';
 import Title from './scaffold/Title';
 import Books from './contents/Books';
 import Websites from './contents/Websites';
+import Tutorials from './contents/Tutorials';
+import ResolutionAndNaming from './contents/ResolutionAndNaming';
+import Articles from './contents/Articles';
+import Footer from './scaffold/Footer';
+import TracePaint from './contents/TracePaint';
+import FinalThoughts from './contents/FinalThoughts';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -23,6 +29,12 @@ root.render(
     <Material />
     <Books />
     <Websites />
+    <Tutorials />
+    <ResolutionAndNaming />
+    <Articles />
+    <TracePaint />
+    <FinalThoughts />
+    <Footer />
   </React.StrictMode>
 );
 
