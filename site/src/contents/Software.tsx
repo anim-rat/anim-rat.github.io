@@ -16,7 +16,7 @@ export default function Software() {
 			<h2>Software</h2>
 			<p>
 				Digital tools assist in the workflow to finalize cel painting and
-				composite the final movie. These tools often complements workflows
+				composite the final movie. These tools often complement workflows
 				starting with pencil and paper.
 			</p>
 			<Entry

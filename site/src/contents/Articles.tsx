@@ -18,7 +18,7 @@ export default function Articles() {
 				Scattered pages about a specific technique, tool, or procedure.
 			</p>
 			<Entry
-				name="Kotluna Sweat Types"
+				name="Kotluna on Sweat Types"
 				link="https://kotoluna-08.hatenablog.com/entry/2022/07/07/135201"
 				note="Briefly explains the two standard types of anime sweat"
 			/>

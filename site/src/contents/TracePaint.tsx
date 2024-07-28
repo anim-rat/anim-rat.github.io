@@ -3,18 +3,18 @@ export default function TracePaint() {
     <section className="container">
       <h2>Trace Paint</h2>
       <p>
-        "Trace-paint" is the process of converting a scanned pencil drawing into
-        a clean, colorized anime cel.
+        <strong>Trace-paint</strong> is the process of converting a scanned
+        pencil drawing into a clean, colorized anime cel.
       </p>
       <p>
-        "Trace" refers to the digitized lines extracted from a clean cel
-        drawing. Anime cels are always aliased, meaning there is no smooth
-        transition between color regions.
+        <strong>Trace</strong> refers to the digitized lines extracted from a
+        clean cel drawing. Anime cels are always aliased, meaning there is no
+        smooth transition between color regions.
       </p>
       <p>
-        "Paint" refers to the process of using a color model to fill the areas
-        of a cel with the proper colors. This is sometimes called "digital
-        painting" and involves supervision on multiple levels to ensure
+        <strong>Paint</strong> refers to the process of using a color model to
+        fill the areas of a cel with the proper colors. This is sometimes called
+        "digital painting" and involves supervision on multiple levels to ensure
         consistency.
       </p>
       <p>
@@ -42,7 +42,7 @@ export default function TracePaint() {
         </li>
       </ul>
       <p>
-        Cels before the cleanup pass often uses light colored fills to indicate
+        Cels before the cleanup pass often leverage colored fills to indicate
         which half of the trace is associated with the colored portion.
       </p>
       <p>

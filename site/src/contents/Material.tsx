@@ -22,7 +22,7 @@ export default function Material() {
 				color designation guides.
 			</p>
 			<p>
-				Not all material is made the same. This list focuses on material for
+				Not all materials are made the same. This list focuses on material for
 				series that are in-color, include detailed notes, and are generally very
 				complete.
 			</p>
@@ -58,7 +58,7 @@ export default function Material() {
 			<Entry
 				name="The Idolmaster Cinderella Girls"
 				type="Color Model"
-				studio="Telecom Animation Film"
+				studio="A-1 Pictures"
 			/>
 			<Entry
 				name="Lupin the Third"

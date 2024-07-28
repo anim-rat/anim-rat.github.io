@@ -15,8 +15,8 @@ export default function Tutorials() {
 		<section className="container">
 			<h2>Tutorials</h2>
 			<p>
-				Videos and websites specifically designed for explaining techniques in
-				detail.
+				There are various videos and websites specifically designed for
+				explaining techniques in detail.
 			</p>
 			<p>
 				Some are in English, some are in Japanese. All are very valuable

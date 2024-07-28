@@ -5,7 +5,7 @@ function Entry(props: { name: string, author: string, link: string, note: string
 		<RichLink
 			name={props.name}
 			link={props.link}
-			note={props.author + '\n' + props.note}
+			note={props.author + ' - ' + props.note}
 		/>
 	);
 }
@@ -41,7 +41,7 @@ export default function Books() {
 				note="Advanced insight for drawing humans effectively"
 			/>
 			<Entry
-				name="How to Improve Illustration without Pain"
+				name="How to Improve Illustration Without Pain"
 				author="Naoki Saito"
 				link="https://www.amazon.co.jp/dp/B0928DSBG8"
 				note="Consistently recommended as the starting place for new illustrators"
