@@ -23,6 +23,12 @@ export default function Books() {
 				href="https://www.amazon.co.jp/" target="_blank">Amazon.jp</a> listing.
 			</p>
 			<Entry
+				name="Filming Fundamentals for Animators (Preparatory Issue)"
+				author="Miyakawa"
+				link="https://satuma.grupo.jp/"
+				note="Partial public edition released in June 2013 (unofficial fan translation available)"
+			/>
+			<Entry
 				name="Animator Tasks"
 				author="The Association of Japanese Animations"
 				link="https://aja.gr.jp/jigyou/ikusei/workbook"
