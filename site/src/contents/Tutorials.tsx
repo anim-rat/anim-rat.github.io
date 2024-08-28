@@ -32,6 +32,11 @@ export default function Tutorials() {
 				link="https://www.youtube.com/playlist?list=PLtDSIiNInRZnobbFoFtZDJLK35gmNCQ-h"
 				note="Recordings of an onboarding series for a small Japanese studio with English subtitles"
 			/>
+			<Entry
+				name="Ginyoagoldie CSP Techniques (YouTube)"
+				link="https://www.youtube.com/playlist?list=PLfM-of9YRfrbNmJWUjJXLRu1tNKVgKPL9"
+				note="Advanced workflow tips and optimization for Clip Studio Paint workflows"
+			/>
 		</section>
 	)
 }
